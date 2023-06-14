@@ -416,7 +416,7 @@ function loadProjects() {
         portfolioLinks.classList.add("portfolio-links", "d-flex", "justify-content-center", "align-items-center");
 
         var link = document.createElement("a");
-        link.href = "portfolio-details.html?pid=" + keys[i];
+        link.href = "portfolio-details?pid=" + keys[i];
         link.setAttribute("data-gallery", "portfolioDetailsGallery");
         link.setAttribute("data-glightbox", "type: external");
         link.classList.add("portfolio-details-lightbox");
