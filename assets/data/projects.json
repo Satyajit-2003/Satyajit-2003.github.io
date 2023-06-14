@@ -1,0 +1,39 @@
+{
+  "1": {
+    "title": "Library Management System",
+    "category": "WebApp",
+    "date": "April 2023",
+    "url": "https://github.com/Satyajit-2003/Library-management-system",
+    "tags": "Flask|Python|HTML|CSS|SQL",
+    "desc" : ["Library Management Web App with Flask.", 
+              "Implemented features like login, signup, book issue, book return, book search, etc.", 
+              "Uses SQLite database to store books, user details and other data."
+            ],
+    "image": ["./assets/img/project/img-1-1.png", "./assets/img/project/img-1-2.png", "./assets/img/project/img-1-3.png"]
+  },
+  "2": {
+    "title": "SecureTalk",
+    "category": "ChatApp",
+    "date": "December 2020",
+    "url": "https://github.com/Satyajit-2003/Online-Chat",
+    "tags": "Python|Tkinter|Socket|Threading|TCP/IP",
+    "desc" : ["A TCP/IP chat client and server using Python.",
+              "Options to encrypt messages with a code.",
+              "Was used by 8-10 friends for personal communication"
+            ],
+    "image": ["./assets/img/project/img-2-1.png", "./assets/img/project/img-2-2.png", "./assets/img/project/img-2-3.png"]
+  },
+  "3": {
+    "title": "SAP Attedance Bot",
+    "category": "Telegram Bot",
+    "date": "October 2022",
+    "url": "https://github.com/Satyajit-2003/SAP-bot",
+    "tags": "Python|Selenium|Telegram|Replit",
+    "desc" : ["Telegram bot to send attendance from the SAP Portal of my university.",
+              "Uses python and selenium web scrapping to get data from the SAP Portal.",
+              "Hosted on Replit.",
+              "Currently used by 13 friends to track their attendances."
+            ],
+    "image": ["./assets/img/project/img-3-1.png", "./assets/img/project/img-3-2.png", "./assets/img/project/img-3-3.png"]
+  }
+}
