@@ -27,6 +27,15 @@ body::before {
   }
 }
 
+@media (max-width: 768px) {
+  body::before {    
+    backdrop-filter: blur(2px);
+    background-size: cover;
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+  }
+}
+
 a {
   color: #18d26e;
   text-decoration: none;
@@ -137,6 +146,14 @@ h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  #header .head-container,
+  #header .tag-container,
+  #header .social-links a{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
   }
 }
 
