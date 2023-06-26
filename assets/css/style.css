@@ -511,6 +511,17 @@ section .container {
   margin-bottom: 10px;
 }
 
+.resume .resume-item h6 {
+  font-size: 14px;
+  font-weight: 500;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 5px 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #fff;
+  border-radius: 3px;
+}
+
 .resume .resume-item ul {
   padding-left: 20px;
 }
