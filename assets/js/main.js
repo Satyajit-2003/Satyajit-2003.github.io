@@ -473,16 +473,12 @@ function loadProjectDetails() {
       document.getElementById("URL").innerHTML = `<strong>URL</strong>: <a href=${project.url} target="_blank">${project.url}</a>`;
 
       var tags_ele = document.getElementsByClassName("tag-container")[0];
-      console.log(typeof(tags_ele));
-      console.log(tags_ele);
       var tags_list = project.tags.split("|");
       for (var i = 0; i < tags_list.length; i++) {
         var div = document.createElement("div");
         div.classList.add("tag");
         div.innerHTML = tags_list[i];
         tags_ele.appendChild(div);
-        console.log(typeof(div));
-        console.log(div);
       }      
 
       var desc_ele = document.getElementById("desc-list");
