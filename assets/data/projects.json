@@ -1,5 +1,16 @@
 {
-  "1": {
+  "4": {
+    "title": "Stock Price Predictor",
+    "category": "ML Model",
+    "date": "June 2023",
+    "url": "https://github.com/Satyajit-2003/Stock-Price-Predictor",
+    "tags": "Python|API|Tensorflow|Keras|Numpy|Pandas",
+    "desc" : ["Developed LSTM-based stock prediction program using Alpha Vantage API for accurate forecasting and informed decision-making.",
+    "Utilized advanced techniques, including data scaling, dropout layer, and visualization, to enhance model performance."
+            ],
+    "image": ["./assets/img/project/img-4-1.png", "./assets/img/project/img-4-2.png", "./assets/img/project/img-4-3.png"]
+  },
+  "3": {
     "title": "Library Management System",
     "category": "WebApp",
     "date": "April 2023",
@@ -23,7 +34,7 @@
             ],
     "image": ["./assets/img/project/img-2-1.png", "./assets/img/project/img-2-2.png", "./assets/img/project/img-2-3.png"]
   },
-  "3": {
+  "1": {
     "title": "SAP Attedance Bot",
     "category": "Telegram Bot",
     "date": "October 2022",
