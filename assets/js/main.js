@@ -230,7 +230,7 @@ function loadCert() {
       for (var i = 0; i < rows.length; i++) {
         var columns = rows[i].split(",");
         var certificateName = columns[0];
-        var imageUrl = 'https://drive.google.com/uc?export=view&id=' + columns[1];
+        var imageUrl = 'https://drive.google.com/thumbnail?id=' + columns[1];
         var description = columns[2];
 
         if (i % 3 === 0) {
@@ -385,7 +385,7 @@ function loadProjects() {
         var category = project.category;
         var images = project.image;
 
-        if (i % 3 === 0) {
+        if (keys.length-i-1 % 3 === 0) {
           rowDiv = document.createElement("div");
           rowDiv.classList.add("row", "portfolio-container");
           container.appendChild(rowDiv);
