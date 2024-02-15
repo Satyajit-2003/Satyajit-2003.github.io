@@ -230,7 +230,8 @@ function loadCert() {
       for (var i = 0; i < rows.length; i++) {
         var columns = rows[i].split(",");
         var certificateName = columns[0];
-        var imageUrl = 'https://drive.google.com/thumbnail?id=' + columns[1];
+        var thumbnailUrl = 'https://drive.google.com/thumbnail?id=' + columns[1];
+        var imageUrl = 'https://drive.google.com/uc?export=view&id=' + columns[1];
         var description = columns[2];
 
         if (i % 3 === 0) {
@@ -248,7 +249,7 @@ function loadCert() {
         var image = document.createElement("div");
         image.className = "image";
         var img = document.createElement("img");
-        img.src = imageUrl;
+        img.src = thumbnailUrl;
         img.height = "170";
         img.width = "300";
         image.appendChild(img);
